@@ -1,0 +1,13 @@
+ <%@ page import="java.util.*" %>
+ <html><body>
+ <form method="post">
+ Name: <input type="text" name="name"><br>
+ <input type="submit">
+ </form>
+ <%
+ String name = request.getParameter("name");
+ if(name != null) {
+  out.println("<h2>Employee Name: " + name + "</h2>");
+ }
+ %>
+ </body></html>
