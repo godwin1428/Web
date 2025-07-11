@@ -1,0 +1,20 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script> 
+function validateForm() { 
+var name = document.forms["regForm"]["name"].value; 
+if (name == "") { 
+alert("Name must be filled out"); 
+return false; 
+} 
+} 
+</script> 
+</head> 
+<body> 
+<form name="regForm" onsubmit="return validateForm()"> 
+Name: <input type="text" name="name"> 
+<input type="submit"> 
+</form> 
+</body> 
+</html> 
