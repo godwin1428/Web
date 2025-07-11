@@ -1,0 +1,16 @@
+<!DOCTYPE html> 
+<html> 
+<body> 
+<h2>Travel Packing List</h2> 
+<ol> 
+<li>Passport</li> 
+<li>Tickets</li> 
+<li>Clothes</li> 
+</ol> 
+<ul> 
+<li>Toothbrush</li> 
+<li>Snacks</li> 
+<li>Camera</li> 
+</ul> 
+</body> 
+</html> 
