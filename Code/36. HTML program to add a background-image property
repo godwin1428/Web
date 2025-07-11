@@ -1,0 +1,18 @@
+ Write an HTML program to add a background-image property using URL and style tag 
+using external type of CSS. 
+
+Html: <!DOCTYPE html> 
+<html> 
+<head> 
+<link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+<h1>External Background Image Example</h1> 
+</body> 
+</html> 
+Css: 
+body { 
+background-image: url('bg.jpg'); 
+background-size: cover; 
+background-repeat: no-repeat; 
+} 
