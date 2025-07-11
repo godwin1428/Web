@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function validateEmail(email) {
+        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return re.test(email);
+        }
+        let email = prompt("Enter your email:");
+        alert(validateEmail(email) ? "Valid" : "Invalid");
+    </script>
+</head>
+<body> </body>
+</html>
