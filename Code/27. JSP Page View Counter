@@ -1,0 +1,10 @@
+<%@ page import="java.util.*" %>
+ <%
+ Integer count = (Integer)application.getAttribute("counter");
+ if(count == null) count = 1;
+ else count++;
+ application.setAttribute("counter", count);
+ %>
+ <html><body>
+ <h2>View Count: <%= count %></h2>
+ </body></html>
