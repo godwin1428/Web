@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        onload = () => {
+        let num = +prompt("Enter a number"); //123.4567
+        document.write("Exponential: " + num.toExponential(2) + "<br>");
+        document.write("Fixed: " + num.toFixed(2) + "<br>");
+        document.write("String: " + num.toString() + "<br>");
+        document.write("Negative Infinity: " + Number.NEGATIVE_INFINITY);
+        }
+    </script>
+</head>
+<body> </body>
+</html>
