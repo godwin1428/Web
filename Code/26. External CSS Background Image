@@ -1,0 +1,17 @@
+ <!-- HTML -->
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <body>
+ <h1>External Background Image</h1>
+ </body>
+ </html>
+
+
+ /* style.css */
+ body {
+  background-image: url('bg.jpg');
+  background-size: cover;
+ }
